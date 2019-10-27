@@ -41,3 +41,5 @@ We use a few different labels for our pull request workflows:
 
 * `don't merge` for things that might need external review, or where it needs to be merged on a specific date, or to clearly note that things are not ready yet!
 * `help wanted` when anyone is welcome to dive in.
+
+*(With thanks to [Nexmo](https://github.com/Nexmo) for the language for this contributing guide.)*
