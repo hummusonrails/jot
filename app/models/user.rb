@@ -6,10 +6,10 @@ class User < ApplicationRecord
       u.uid = auth['uid']
       if auth['info']
         u.name = auth['info']['name'] || ""
-        u.login = auth['info']['login'] || ""
+        u.login = auth['info']['nickname'] || ""
         u.email = auth['info']['email'] || ""
-        u.avatar = auth['info']['avatar_url'] || ""
-        u.github_url = auth['info']['url'] || ""
+        u.avatar = auth['info']['image'] || ""
+        u.github_url = auth['info']['GitHub'] || ""
       end
     end
   end
