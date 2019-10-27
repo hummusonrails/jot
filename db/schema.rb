@@ -10,10 +10,26 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2019_10_27_062118) do
+ActiveRecord::Schema.define(version: 2019_10_27_123021) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
+
+  create_table "github_items", force: :cascade do |t|
+    t.string "repo_url"
+  end
+
+  create_table "items", force: :cascade do |t|
+    t.string "title"
+    t.string "state"
+    t.string "source_url"
+    t.integer "assignee_id"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+    t.string "actable_type"
+    t.bigint "actable_id"
+    t.index ["actable_type", "actable_id"], name: "index_items_on_actable_type_and_actable_id"
+  end
 
   create_table "users", force: :cascade do |t|
     t.string "provider"
