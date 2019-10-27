@@ -28,6 +28,7 @@ gem 'jbuilder', '~> 2.7'
 # GitHub OAuth
 gem 'omniauth'
 gem 'omniauth-github'
+gem 'omniauth-rails_csrf_protection', '~> 0.1'
 
 # Manage .env variables
 gem 'dotenv-rails'
