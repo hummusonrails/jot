@@ -4,7 +4,7 @@ JOT is an open source project to aggregate all your disaggregated work items (i.
 
 * [Dependencies](#dependencies)
 * [Installation and Usage](#installation-and-usage)
-* [Contributin](#contributing)
+* [Contributing](#contributing)
 * [License](#license)
 
 ## Dependencies
