@@ -1,6 +1,6 @@
 # Contributing
 
-Thanks for considering contributing to J.O.T! From typos, to sample code, tutorials and beyond, we truly appreciate and welcome input from everyone.
+Thanks for considering contributing to JOT! From typos, to sample code, tutorials and beyond, we truly appreciate and welcome input from everyone.
 
 ## Git process
 
